@@ -1,0 +1,1 @@
+/usr/bin/clang -g -rdynamic CMakeFiles/Fractals_random_static.dir/progs/demos/Fractals_random/fractals_random.c.o -o bin/Fractals_random_static  -lGLU -lX11 -lXi -lGL -lm -lm lib/libglut.a -lX11 -lXi -lGL -lm 
