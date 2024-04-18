@@ -1,1 +1,0 @@
-/usr/bin/clang -g -rdynamic CMakeFiles/Fractals_static.dir/progs/demos/Fractals/fractals.c.o -o bin/Fractals_static  -lGLU -lX11 -lXi -lGL -lm -lm lib/libglut.a -lX11 -lXi -lGL -lm 

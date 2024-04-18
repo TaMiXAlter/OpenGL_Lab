@@ -1,1 +1,0 @@
-/usr/bin/clang -g -rdynamic CMakeFiles/indexed_color.dir/progs/demos/indexed_color/idxcol.c.o -o bin/indexed_color  -Wl,-rpath,/home/tami/OpenGl/build/Thirdparty/freeglut/lib -lGLU -lX11 -lXi -lGL -lm -lm lib/libglut.so.3.12.0 -lX11 -lXi -lGL -lm 
