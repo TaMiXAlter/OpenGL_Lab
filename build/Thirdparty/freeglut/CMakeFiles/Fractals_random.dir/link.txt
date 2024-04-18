@@ -1,1 +1,0 @@
-/usr/bin/clang -g -rdynamic CMakeFiles/Fractals_random.dir/progs/demos/Fractals_random/fractals_random.c.o -o bin/Fractals_random  -Wl,-rpath,/home/tami/OpenGl/build/Thirdparty/freeglut/lib -lGLU -lX11 -lXi -lGL -lm -lm lib/libglut.so.3.12.0 -lX11 -lXi -lGL -lm 
