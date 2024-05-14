@@ -1,4 +1,4 @@
-# Install script for directory: /home/tami/OpenGl/HomeWork/Thirdparty/freeglut
+# Install script for directory: /home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -55,8 +55,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib/libglut.so.3.12.0"
-    "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib/libglut.so.3"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib/libglut.so.3.12.0"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib/libglut.so.3"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglut.so.3.12.0"
@@ -72,32 +72,32 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib/libglut.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib/libglut.so")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib/libglut.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib/libglut.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/GL" TYPE FILE FILES
-    "/home/tami/OpenGl/HomeWork/Thirdparty/freeglut/include/GL/freeglut.h"
-    "/home/tami/OpenGl/HomeWork/Thirdparty/freeglut/include/GL/freeglut_ucall.h"
-    "/home/tami/OpenGl/HomeWork/Thirdparty/freeglut/include/GL/freeglut_ext.h"
-    "/home/tami/OpenGl/HomeWork/Thirdparty/freeglut/include/GL/freeglut_std.h"
-    "/home/tami/OpenGl/HomeWork/Thirdparty/freeglut/include/GL/glut.h"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut/include/GL/freeglut.h"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut/include/GL/freeglut_ucall.h"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut/include/GL/freeglut_ext.h"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut/include/GL/freeglut_std.h"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut/include/GL/glut.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE RENAME "glut.pc" FILES "/home/tami/OpenGl/HomeWork/cmake-build-debug/freeglut.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE RENAME "glut.pc" FILES "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/freeglut.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake"
-         "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets.cmake")
+         "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT/FreeGLUTTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -110,16 +110,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/CMakeFiles/Export/6f3d6babffe806515ac5156322d25f7d/FreeGLUTTargets-debug.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FreeGLUT" TYPE FILE FILES
-    "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/FreeGLUT/FreeGLUTConfig.cmake"
-    "/home/tami/OpenGl/HomeWork/cmake-build-debug/Thirdparty/freeglut/FreeGLUT/FreeGLUTConfigVersion.cmake"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/FreeGLUT/FreeGLUTConfig.cmake"
+    "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/FreeGLUT/FreeGLUTConfigVersion.cmake"
     )
 endif()
 
