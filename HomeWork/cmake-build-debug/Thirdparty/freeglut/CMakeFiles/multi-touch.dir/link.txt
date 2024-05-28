@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -pedantic -g -rdynamic "CMakeFiles/multi-touch.dir/progs/demos/multi-touch/multi-touch.c.o" -o bin/multi-touch  -Wl,-rpath,/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib -lGLU -lX11 -lXrandr -lXi -lGL -lm -lm lib/libglut.so.3.12.0 -lX11 -lXrandr -lXi -lGL -lm 
