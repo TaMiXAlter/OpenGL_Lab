@@ -60,7 +60,7 @@ add_library(FreeGLUT::freeglut SHARED IMPORTED)
 
 set_target_properties(FreeGLUT::freeglut PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXi.so;/usr/lib/x86_64-linux-gnu/libGL.so;m"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXrandr.so;/usr/lib/x86_64-linux-gnu/libXi.so;/usr/lib/x86_64-linux-gnu/libGL.so;m"
 )
 
 # Create imported target FreeGLUT::freeglut_static
@@ -68,7 +68,7 @@ add_library(FreeGLUT::freeglut_static STATIC IMPORTED)
 
 set_target_properties(FreeGLUT::freeglut_static PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXi.so;/usr/lib/x86_64-linux-gnu/libGL.so;m"
+  INTERFACE_LINK_LIBRARIES "/usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXrandr.so;/usr/lib/x86_64-linux-gnu/libXi.so;/usr/lib/x86_64-linux-gnu/libGL.so;m"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

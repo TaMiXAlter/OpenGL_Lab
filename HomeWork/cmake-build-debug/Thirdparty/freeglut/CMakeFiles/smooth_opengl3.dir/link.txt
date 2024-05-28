@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -pedantic -g -rdynamic CMakeFiles/smooth_opengl3.dir/progs/demos/smooth_opengl3/smooth_opengl3.c.o -o bin/smooth_opengl3  -Wl,-rpath,/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut/lib -lGLU -lX11 -lXrandr -lXi -lGL -lm -lm lib/libglut.so.3.12.0 -lX11 -lXrandr -lXi -lGL -lm 
