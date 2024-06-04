@@ -1,4 +1,4 @@
-/snap/clion/275/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/tami/Projects/OpenGL_Lab/HomeWork -B /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug
+/snap/clion/277/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/tami/Projects/OpenGL_Lab/HomeWork -B /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 

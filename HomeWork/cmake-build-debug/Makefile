@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/275/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /snap/clion/277/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/275/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	/snap/clion/275/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/277/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/snap/clion/275/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/277/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,37 +97,37 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/snap/clion/275/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+	/snap/clion/277/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/snap/clion/275/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
+	/snap/clion/277/bin/cmake/linux/x64/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/snap/clion/275/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/277/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/snap/clion/275/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/277/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/snap/clion/275/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/277/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/snap/clion/275/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/277/bin/cmake/linux/x64/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OpenGl_Lab
+# Target rules for targets named ComputerGraph
 
 # Build rule for target.
-OpenGl_Lab: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OpenGl_Lab
-.PHONY : OpenGl_Lab
+ComputerGraph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ComputerGraph
+.PHONY : ComputerGraph
 
 # fast build rule for target.
-OpenGl_Lab/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGl_Lab.dir/build.make CMakeFiles/OpenGl_Lab.dir/build
-.PHONY : OpenGl_Lab/fast
+ComputerGraph/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/build
+.PHONY : ComputerGraph/fast
 
 #=============================================================================
 # Target rules for targets named freeglut
@@ -642,29 +642,173 @@ indexed_color_static/fast:
 	$(MAKE) $(MAKESILENT) -f Thirdparty/freeglut/CMakeFiles/3dview_static.dir/build.make Thirdparty/freeglut/CMakeFiles/3dview_static.dir/build
 .PHONY : 3dview_static/fast
 
-src/texture.o: src/texture.cpp.o
-.PHONY : src/texture.o
+Thirdparty/gltools/src/GLBatch.o: Thirdparty/gltools/src/GLBatch.cpp.o
+.PHONY : Thirdparty/gltools/src/GLBatch.o
 
 # target to build an object file
-src/texture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGl_Lab.dir/build.make CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o
-.PHONY : src/texture.cpp.o
+Thirdparty/gltools/src/GLBatch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLBatch.cpp.o
+.PHONY : Thirdparty/gltools/src/GLBatch.cpp.o
 
-src/texture.i: src/texture.cpp.i
-.PHONY : src/texture.i
+Thirdparty/gltools/src/GLBatch.i: Thirdparty/gltools/src/GLBatch.cpp.i
+.PHONY : Thirdparty/gltools/src/GLBatch.i
 
 # target to preprocess a source file
-src/texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGl_Lab.dir/build.make CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.i
-.PHONY : src/texture.cpp.i
+Thirdparty/gltools/src/GLBatch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLBatch.cpp.i
+.PHONY : Thirdparty/gltools/src/GLBatch.cpp.i
 
-src/texture.s: src/texture.cpp.s
-.PHONY : src/texture.s
+Thirdparty/gltools/src/GLBatch.s: Thirdparty/gltools/src/GLBatch.cpp.s
+.PHONY : Thirdparty/gltools/src/GLBatch.s
 
 # target to generate assembly for a file
-src/texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGl_Lab.dir/build.make CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.s
-.PHONY : src/texture.cpp.s
+Thirdparty/gltools/src/GLBatch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLBatch.cpp.s
+.PHONY : Thirdparty/gltools/src/GLBatch.cpp.s
+
+Thirdparty/gltools/src/GLShaderManager.o: Thirdparty/gltools/src/GLShaderManager.cpp.o
+.PHONY : Thirdparty/gltools/src/GLShaderManager.o
+
+# target to build an object file
+Thirdparty/gltools/src/GLShaderManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLShaderManager.cpp.o
+.PHONY : Thirdparty/gltools/src/GLShaderManager.cpp.o
+
+Thirdparty/gltools/src/GLShaderManager.i: Thirdparty/gltools/src/GLShaderManager.cpp.i
+.PHONY : Thirdparty/gltools/src/GLShaderManager.i
+
+# target to preprocess a source file
+Thirdparty/gltools/src/GLShaderManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLShaderManager.cpp.i
+.PHONY : Thirdparty/gltools/src/GLShaderManager.cpp.i
+
+Thirdparty/gltools/src/GLShaderManager.s: Thirdparty/gltools/src/GLShaderManager.cpp.s
+.PHONY : Thirdparty/gltools/src/GLShaderManager.s
+
+# target to generate assembly for a file
+Thirdparty/gltools/src/GLShaderManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLShaderManager.cpp.s
+.PHONY : Thirdparty/gltools/src/GLShaderManager.cpp.s
+
+Thirdparty/gltools/src/GLTools.o: Thirdparty/gltools/src/GLTools.cpp.o
+.PHONY : Thirdparty/gltools/src/GLTools.o
+
+# target to build an object file
+Thirdparty/gltools/src/GLTools.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLTools.cpp.o
+.PHONY : Thirdparty/gltools/src/GLTools.cpp.o
+
+Thirdparty/gltools/src/GLTools.i: Thirdparty/gltools/src/GLTools.cpp.i
+.PHONY : Thirdparty/gltools/src/GLTools.i
+
+# target to preprocess a source file
+Thirdparty/gltools/src/GLTools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLTools.cpp.i
+.PHONY : Thirdparty/gltools/src/GLTools.cpp.i
+
+Thirdparty/gltools/src/GLTools.s: Thirdparty/gltools/src/GLTools.cpp.s
+.PHONY : Thirdparty/gltools/src/GLTools.s
+
+# target to generate assembly for a file
+Thirdparty/gltools/src/GLTools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLTools.cpp.s
+.PHONY : Thirdparty/gltools/src/GLTools.cpp.s
+
+Thirdparty/gltools/src/GLTriangleBatch.o: Thirdparty/gltools/src/GLTriangleBatch.cpp.o
+.PHONY : Thirdparty/gltools/src/GLTriangleBatch.o
+
+# target to build an object file
+Thirdparty/gltools/src/GLTriangleBatch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLTriangleBatch.cpp.o
+.PHONY : Thirdparty/gltools/src/GLTriangleBatch.cpp.o
+
+Thirdparty/gltools/src/GLTriangleBatch.i: Thirdparty/gltools/src/GLTriangleBatch.cpp.i
+.PHONY : Thirdparty/gltools/src/GLTriangleBatch.i
+
+# target to preprocess a source file
+Thirdparty/gltools/src/GLTriangleBatch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLTriangleBatch.cpp.i
+.PHONY : Thirdparty/gltools/src/GLTriangleBatch.cpp.i
+
+Thirdparty/gltools/src/GLTriangleBatch.s: Thirdparty/gltools/src/GLTriangleBatch.cpp.s
+.PHONY : Thirdparty/gltools/src/GLTriangleBatch.s
+
+# target to generate assembly for a file
+Thirdparty/gltools/src/GLTriangleBatch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/GLTriangleBatch.cpp.s
+.PHONY : Thirdparty/gltools/src/GLTriangleBatch.cpp.s
+
+Thirdparty/gltools/src/glew.o: Thirdparty/gltools/src/glew.c.o
+.PHONY : Thirdparty/gltools/src/glew.o
+
+# target to build an object file
+Thirdparty/gltools/src/glew.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/glew.c.o
+.PHONY : Thirdparty/gltools/src/glew.c.o
+
+Thirdparty/gltools/src/glew.i: Thirdparty/gltools/src/glew.c.i
+.PHONY : Thirdparty/gltools/src/glew.i
+
+# target to preprocess a source file
+Thirdparty/gltools/src/glew.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/glew.c.i
+.PHONY : Thirdparty/gltools/src/glew.c.i
+
+Thirdparty/gltools/src/glew.s: Thirdparty/gltools/src/glew.c.s
+.PHONY : Thirdparty/gltools/src/glew.s
+
+# target to generate assembly for a file
+Thirdparty/gltools/src/glew.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/glew.c.s
+.PHONY : Thirdparty/gltools/src/glew.c.s
+
+Thirdparty/gltools/src/math3d.o: Thirdparty/gltools/src/math3d.cpp.o
+.PHONY : Thirdparty/gltools/src/math3d.o
+
+# target to build an object file
+Thirdparty/gltools/src/math3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/math3d.cpp.o
+.PHONY : Thirdparty/gltools/src/math3d.cpp.o
+
+Thirdparty/gltools/src/math3d.i: Thirdparty/gltools/src/math3d.cpp.i
+.PHONY : Thirdparty/gltools/src/math3d.i
+
+# target to preprocess a source file
+Thirdparty/gltools/src/math3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/math3d.cpp.i
+.PHONY : Thirdparty/gltools/src/math3d.cpp.i
+
+Thirdparty/gltools/src/math3d.s: Thirdparty/gltools/src/math3d.cpp.s
+.PHONY : Thirdparty/gltools/src/math3d.s
+
+# target to generate assembly for a file
+Thirdparty/gltools/src/math3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/Thirdparty/gltools/src/math3d.cpp.s
+.PHONY : Thirdparty/gltools/src/math3d.cpp.s
+
+src/Robot.o: src/Robot.cpp.o
+.PHONY : src/Robot.o
+
+# target to build an object file
+src/Robot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/src/Robot.cpp.o
+.PHONY : src/Robot.cpp.o
+
+src/Robot.i: src/Robot.cpp.i
+.PHONY : src/Robot.i
+
+# target to preprocess a source file
+src/Robot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/src/Robot.cpp.i
+.PHONY : src/Robot.cpp.i
+
+src/Robot.s: src/Robot.cpp.s
+.PHONY : src/Robot.s
+
+# target to generate assembly for a file
+src/Robot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ComputerGraph.dir/build.make CMakeFiles/ComputerGraph.dir/src/Robot.cpp.s
+.PHONY : src/Robot.cpp.s
 
 # Help Target
 help:
@@ -682,6 +826,7 @@ help:
 	@echo "... 3dview_static"
 	@echo "... CallbackMaker"
 	@echo "... CallbackMaker_static"
+	@echo "... ComputerGraph"
 	@echo "... Fractals"
 	@echo "... Fractals_random"
 	@echo "... Fractals_random_static"
@@ -690,7 +835,6 @@ help:
 	@echo "... Lorenz_static"
 	@echo "... One"
 	@echo "... One_static"
-	@echo "... OpenGl_Lab"
 	@echo "... freeglut"
 	@echo "... freeglut_static"
 	@echo "... indexed_color"
@@ -715,9 +859,27 @@ help:
 	@echo "... timer_callback"
 	@echo "... timer_callback_static"
 	@echo "... timer_static"
-	@echo "... src/texture.o"
-	@echo "... src/texture.i"
-	@echo "... src/texture.s"
+	@echo "... Thirdparty/gltools/src/GLBatch.o"
+	@echo "... Thirdparty/gltools/src/GLBatch.i"
+	@echo "... Thirdparty/gltools/src/GLBatch.s"
+	@echo "... Thirdparty/gltools/src/GLShaderManager.o"
+	@echo "... Thirdparty/gltools/src/GLShaderManager.i"
+	@echo "... Thirdparty/gltools/src/GLShaderManager.s"
+	@echo "... Thirdparty/gltools/src/GLTools.o"
+	@echo "... Thirdparty/gltools/src/GLTools.i"
+	@echo "... Thirdparty/gltools/src/GLTools.s"
+	@echo "... Thirdparty/gltools/src/GLTriangleBatch.o"
+	@echo "... Thirdparty/gltools/src/GLTriangleBatch.i"
+	@echo "... Thirdparty/gltools/src/GLTriangleBatch.s"
+	@echo "... Thirdparty/gltools/src/glew.o"
+	@echo "... Thirdparty/gltools/src/glew.i"
+	@echo "... Thirdparty/gltools/src/glew.s"
+	@echo "... Thirdparty/gltools/src/math3d.o"
+	@echo "... Thirdparty/gltools/src/math3d.i"
+	@echo "... Thirdparty/gltools/src/math3d.s"
+	@echo "... src/Robot.o"
+	@echo "... src/Robot.i"
+	@echo "... src/Robot.s"
 .PHONY : help
 
 

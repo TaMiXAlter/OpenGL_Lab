@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/275/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /snap/clion/277/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/275/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -112,12 +112,10 @@ Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libGLU.so
 Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libX11.so
 Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libXrandr.so
 Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libXi.so
-Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libGL.so
 Thirdparty/freeglut/bin/spaceball_static: Thirdparty/freeglut/lib/libglut.a
 Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libX11.so
 Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libXrandr.so
 Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libXi.so
-Thirdparty/freeglut/bin/spaceball_static: /usr/lib/x86_64-linux-gnu/libGL.so
 Thirdparty/freeglut/bin/spaceball_static: Thirdparty/freeglut/CMakeFiles/spaceball_static.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable bin/spaceball_static"
 	cd /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spaceball_static.dir/link.txt --verbose=$(VERBOSE)

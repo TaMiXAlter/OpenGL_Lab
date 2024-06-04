@@ -77,7 +77,7 @@
 #           endif
 #       endif
 
-/* Windows shared library (DLL) */
+/* Windows gltools library (DLL) */
 #   else
 
 #       define FGAPIENTRY __stdcall
@@ -86,7 +86,7 @@
 #       else
 #           define FGAPI __declspec(dllimport)
 
-            /* Link with Win32 shared freeglut lib */
+            /* Link with Win32 gltools freeglut lib */
 #           if FREEGLUT_LIB_PRAGMAS
 #               ifdef NDEBUG
 #                   pragma comment (lib, "freeglut.lib")

@@ -7,7 +7,7 @@ INCLUDE(GNUInstallDirs)
 # NOTE: On Windows and Cygwin, the dll's are placed in the
 # CMAKE_RUNTIME_OUTPUT_DIRECTORY, while their corresponding import
 # libraries end up in CMAKE_ARCHIVE_OUTPUT_DIRECTORY. On other
-# platforms, such as Linux, the shared libraries are put in
+# platforms, such as Linux, the gltools libraries are put in
 # CMAKE_ARCHIVE_OUTPUT_DIRECTORY instead.
 # Static libraries end up in CMAKE_ARCHIVE_OUTPUT_DIRECTORY on all
 # platforms.
@@ -25,7 +25,7 @@ set(VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
 # Update fg_version.h to match the versions number here in cmake
 CONFIGURE_FILE(src/fg_version.h.in src/fg_version.h)
 
-# shared lib version numbers (XXX: change before release)
+# gltools lib version numbers (XXX: change before release)
 set(SO_MAJOR 3)		# increment on backwards incompatible API/ABI changes
 set(SO_MINOR 12)	# increment on backwards compatible API additions
 set(SO_REV 0)		# increment if only internal changes happened between releases
@@ -152,7 +152,7 @@ IF(WIN32)
 
 ELSEIF(ANDROID OR BLACKBERRY)
     # BlackBerry and Android share some similar design concepts and ideas, as with many mobile devices.
-    # As such, some classes can be shared between the two. XXX: Possibly rename shareable classes to
+    # As such, some classes can be gltools between the two. XXX: Possibly rename shareable classes to
     # a more generic name. *_stub? *_mobile?
     LIST(APPEND FREEGLUT_SRCS
             src/android/fg_cursor_android.c
@@ -452,7 +452,7 @@ IF(WIN32)
     ENDIF()
 ELSE()
     # on UNIX we need to make sure:
-    # - all shared libraries must have a soname/version, see :
+    # - all gltools libraries must have a soname/version, see :
     #   http://sourceware.org/autobook/autobook/autobook_91.html#SEC91
     #   http://www.gnu.org/software/libtool/manual/html_node/Updating-version-info.html
     #   Current: -version-info 12:0:9 -> 3.9.0
@@ -463,7 +463,7 @@ ELSE()
     #   not be a problem.
     # - the output library should be named glut so it'll be linkable with -lglut
     #   (unless FREEGLUT_REPLACE_GLUT is false).
-    # - the shared library should link to the dependency libraries so that the user
+    # - the gltools library should link to the dependency libraries so that the user
     #   won't have to link them explicitly (they shouldn't have to know that we depend
     #   on Xrandr or Xxf86vm)
     IF(FREEGLUT_GLES)

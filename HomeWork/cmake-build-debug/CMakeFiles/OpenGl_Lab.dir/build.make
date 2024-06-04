@@ -44,10 +44,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/275/bin/cmake/linux/x64/bin/cmake
+CMAKE_COMMAND = /snap/clion/277/bin/cmake/linux/x64/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/275/bin/cmake/linux/x64/bin/cmake -E rm -f
+RM = /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -69,28 +69,28 @@ include CMakeFiles/OpenGl_Lab.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OpenGl_Lab.dir/flags.make
 
-CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o: CMakeFiles/OpenGl_Lab.dir/flags.make
-CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o: /home/tami/Projects/OpenGL_Lab/HomeWork/src/texture.cpp
-CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o: CMakeFiles/OpenGl_Lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o -MF CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o.d -o CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/src/texture.cpp
+CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o: CMakeFiles/OpenGl_Lab.dir/flags.make
+CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o: /home/tami/Projects/OpenGL_Lab/HomeWork/Lab12/src/shadow.cpp
+CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o: CMakeFiles/OpenGl_Lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o -MF CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o.d -o CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/Lab12/src/shadow.cpp
 
-CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tami/Projects/OpenGL_Lab/HomeWork/src/texture.cpp > CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.i
+CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tami/Projects/OpenGL_Lab/HomeWork/Lab12/src/shadow.cpp > CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.i
 
-CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tami/Projects/OpenGL_Lab/HomeWork/src/texture.cpp -o CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.s
+CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tami/Projects/OpenGL_Lab/HomeWork/Lab12/src/shadow.cpp -o CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.s
 
 # Object files for target OpenGl_Lab
 OpenGl_Lab_OBJECTS = \
-"CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o"
+"CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o"
 
 # External object files for target OpenGl_Lab
 OpenGl_Lab_EXTERNAL_OBJECTS =
 
-OpenGl_Lab: CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o
+OpenGl_Lab: CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o
 OpenGl_Lab: CMakeFiles/OpenGl_Lab.dir/build.make
 OpenGl_Lab: /usr/lib/x86_64-linux-gnu/libGLU.so
 OpenGl_Lab: Thirdparty/freeglut/lib/libglut.so.3.12.0

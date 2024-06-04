@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o"
-  "CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o.d"
+  "CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o"
+  "CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o.d"
   "OpenGl_Lab"
   "OpenGl_Lab.pdb"
 )

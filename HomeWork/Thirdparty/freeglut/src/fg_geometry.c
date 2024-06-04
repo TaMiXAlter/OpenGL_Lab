@@ -778,7 +778,7 @@ static void fghGenerateGeometryWithIndexArray(int numFaces, int numEdgePerFace, 
     /*
      * Build array with vertices using vertex coordinates and vertex indices
      * Do same for normals.
-     * Need to do this because of different normals at shared vertices.
+     * Need to do this because of different normals at gltools vertices.
      */
     for (i=0; i<numFaces; i++)
     {

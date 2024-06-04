@@ -5,7 +5,7 @@
  * note what I have written here at the time. And see the creation date :)
  *
  * : This is a wrapper. I still have to figure out
- * : how to build shared libraries under *nix :)
+ * : how to build gltools libraries under *nix :)
  *
  * Copyright (c) 1999 by Pawel W. Olszta
  * Written by Pawel W. Olszta, <olszta@sourceforge.net>

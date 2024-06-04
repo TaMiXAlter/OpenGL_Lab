@@ -1,4 +1,4 @@
-/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/OpenGl_Lab.dir
+/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/ComputerGraph.dir
 /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/list_install_components.dir

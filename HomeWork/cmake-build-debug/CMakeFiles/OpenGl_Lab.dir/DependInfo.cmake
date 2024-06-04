@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tami/Projects/OpenGL_Lab/HomeWork/src/texture.cpp" "CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o" "gcc" "CMakeFiles/OpenGl_Lab.dir/src/texture.cpp.o.d"
+  "/home/tami/Projects/OpenGL_Lab/HomeWork/Lab12/src/shadow.cpp" "CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o" "gcc" "CMakeFiles/OpenGl_Lab.dir/Lab12/src/shadow.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

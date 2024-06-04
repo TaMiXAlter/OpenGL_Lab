@@ -5,7 +5,7 @@
 		<Option title="freeglut"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\;CMake Files\Thirdparty\;CMake Files\Thirdparty\freeglut\;CMake Files\Thirdparty\freeglut\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Thirdparty\;CMake Files\Thirdparty\freeglut\;CMake Files\Thirdparty\freeglut\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/Thirdparty/freeglut"/>
@@ -2208,18 +2208,6 @@
 		</Unit>
 		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
-		</Unit>
-		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
-		</Unit>
-		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
-		</Unit>
-		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/../../../../../usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\opencv4\"/>
 		</Unit>
 		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Thirdparty\freeglut\"/>

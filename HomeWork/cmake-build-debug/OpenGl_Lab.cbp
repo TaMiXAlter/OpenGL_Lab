@@ -1998,6 +1998,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/Lab12/src/shadow.cpp">
+			<Option target="OpenGl_Lab"/>
+		</Unit>
 		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut/include/GL/freeglut.h">
 			<Option target="freeglut"/>
 			<Option target="freeglut_static"/>
@@ -2313,9 +2316,6 @@
 		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/Thirdparty/freeglut/src/x11/fg_xinput_x11.c">
 			<Option target="freeglut"/>
 			<Option target="freeglut_static"/>
-		</Unit>
-		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/src/texture.cpp">
-			<Option target="OpenGl_Lab"/>
 		</Unit>
 		<Unit filename="/home/tami/Projects/OpenGL_Lab/HomeWork/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
