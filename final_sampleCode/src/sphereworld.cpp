@@ -654,7 +654,10 @@ M3DMatrix44f mShadowMatrix;
 GLuint  textureObjects[NUM_TEXTURES];
 
 const char *szTextureFiles[] = {"../grass.tga", "../wood.tga", "../orb.tga"};
-
+//Robot tarnslate property
+float bd,hd,la,lh,ra,rh,ll,lf,rl,rf;
+//animation controller
+bool pause=false;
         
 //////////////////////////////////////////////////////////////////
 // This function does any needed initialization on the rendering
@@ -760,6 +763,7 @@ void DrawGround(void)
     GLfloat s = 0.0f;
     GLfloat t = 0.0f;
     GLfloat texStep = 1.0f / (fExtent * .075f);
+
     
     glBindTexture(GL_TEXTURE_2D, textureObjects[GROUND_TEXTURE]);
     glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
@@ -788,14 +792,115 @@ void DrawGround(void)
     }
 
 ///////////////////////////////////////////////////////////////////////
+/**Draw Robot*/
+void DrawBox(float x, float y, float z, float w, float h, float d) {
+	glPushMatrix();
+	float ScaleDelta = 0.005f;
+	glScalef(w*ScaleDelta, h*ScaleDelta, d*ScaleDelta);
+	float TranslateDleta = 0.2f;
+	glTranslatef(x*TranslateDleta, y*TranslateDleta, z*TranslateDleta);
+	glBegin(GL_QUADS);
+	// Front Face
+	glTexCoord2f(0.0f, 0.0f); glVertex3f(-1.0f, -1.0f, 1.0f);
+	glTexCoord2f(1.0f, 0.0f); glVertex3f(1.0f, -1.0f, 1.0f);
+	glTexCoord2f(1.0f, 1.0f); glVertex3f(1.0f, 1.0f, 1.0f);
+	glTexCoord2f(0.0f, 1.0f); glVertex3f(-1.0f, 1.0f, 1.0f);
+
+	// Back Face
+	glTexCoord2f(1.0f, 0.0f); glVertex3f(-1.0f, -1.0f, -1.0f);
+	glTexCoord2f(1.0f, 1.0f); glVertex3f(-1.0f, 1.0f, -1.0f);
+	glTexCoord2f(0.0f, 1.0f); glVertex3f(1.0f, 1.0f, -1.0f);
+	glTexCoord2f(0.0f, 0.0f); glVertex3f(1.0f, -1.0f, -1.0f);
+
+	// Top Face
+	glTexCoord2f(0.0f, 1.0f); glVertex3f(-1.0f, 1.0f, -1.0f);
+	glTexCoord2f(0.0f, 0.0f); glVertex3f(-1.0f, 1.0f, 1.0f);
+	glTexCoord2f(1.0f, 0.0f); glVertex3f(1.0f, 1.0f, 1.0f);
+	glTexCoord2f(1.0f, 1.0f); glVertex3f(1.0f, 1.0f, -1.0f);
+
+	// Bottom Face
+	glTexCoord2f(1.0f, 1.0f); glVertex3f(-1.0f, -1.0f, -1.0f);
+	glTexCoord2f(0.0f, 1.0f); glVertex3f(1.0f, -1.0f, -1.0f);
+	glTexCoord2f(0.0f, 0.0f); glVertex3f(1.0f, -1.0f, 1.0f);
+	glTexCoord2f(1.0f, 0.0f); glVertex3f(-1.0f, -1.0f, 1.0f);
+
+	// Right face
+	glTexCoord2f(1.0f, 0.0f); glVertex3f(1.0f, -1.0f, -1.0f);
+	glTexCoord2f(1.0f, 1.0f); glVertex3f(1.0f, 1.0f, -1.0f);
+	glTexCoord2f(0.0f, 1.0f); glVertex3f(1.0f, 1.0f, 1.0f);
+	glTexCoord2f(0.0f, 0.0f); glVertex3f(1.0f, -1.0f, 1.0f);
+
+	// Left Face
+	glTexCoord2f(0.0f, 0.0f); glVertex3f(-1.0f, -1.0f, -1.0f);
+	glTexCoord2f(1.0f, 0.0f); glVertex3f(-1.0f, -1.0f, 1.0f);
+	glTexCoord2f(1.0f, 1.0f); glVertex3f(-1.0f, 1.0f, 1.0f);
+	glTexCoord2f(0.0f, 1.0f); glVertex3f(-1.0f, 1.0f, -1.0f);
+
+	glEnd();
+	glPopMatrix();
+}
+void DrawRobot(){
+	glPushMatrix();
+	/**Body*/
+	glRotatef(bd,0,0,1);
+	DrawBox(0,0,0,30,40,10);
+		/**Head*/
+		glPushMatrix();
+		glRotatef(hd,0,0,1);
+		DrawBox(0,30,0,10,10,10);
+		glPopMatrix();
+		/**Left arm*/
+		glPushMatrix();
+		glRotatef(la,0,0,1);
+		DrawBox(15.f,10.f,0,20,5,5);
+			/**Left hand*/
+			glPushMatrix();
+			glRotatef(lh,0,0,1);
+			DrawBox(50.f,10.f,0,10,5,5);
+			glPopMatrix();
+		glPopMatrix();
+		/**Right arm*/
+		glPushMatrix();
+		glRotatef(ra,0,0,1);
+		DrawBox(-15.f,10.f,0,20,5,5);
+			/**Right hand*/
+			glPushMatrix();
+			glRotatef(rh,0,0,1);
+			DrawBox(-50.f,10.f,0,10,5,5);
+			glPopMatrix();
+		glPopMatrix();
+		/**Right Leg*/
+		glPushMatrix();
+		glRotatef(rl,0,0,1);
+		DrawBox(-10.f,-15.f,0,5,20,5);
+			/**Right feet*/
+			glPushMatrix();
+			glRotatef(rf,0,0,1);
+			DrawBox(-10.f,-150.f,0,5,3,10);
+			glPopMatrix();
+		glPopMatrix();
+		/**Left Leg*/
+		glPushMatrix();
+		glRotatef(ll,0,0,1);
+		DrawBox(10.f,-15.f,0,5,20,5);
+			/**Left feet*/
+			glPushMatrix();
+			glRotatef(lf,0,0,1);
+			DrawBox(10.f,-150.f,0,5,3,10);
+			glPopMatrix();
+		glPopMatrix();
+	glPopMatrix();
+}
+///////////////////////////////////////////////////////////////////////
 // Draw random inhabitants and the rotating torus/sphere duo
-void DrawInhabitants(GLint nShadow)
-    {
+void DrawInhabitants(GLint nShadow){
     static GLfloat yRot = 0.0f;         // Rotation angle for animation
     GLint i;
 
     if(nShadow == 0){
-        yRot += 0.5f;
+    	if(!pause) {
+			yRot += 0.5f;
+    	}
         glColor4f(1.0f, 1.0f, 1.0f, 1.0f);
     }
     else
@@ -810,32 +915,31 @@ void DrawInhabitants(GLint nShadow)
         gltDrawSphere(0.3f, 21, 11);
         glPopMatrix();
     }
-	//***/
+
     glPushMatrix();
-        glTranslatef(0.0f, 0.1f, -2.5f);
-    
+        glTranslatef(0.0f, 0.2f, -2.5f);
+		//Draw Spin Sphere
         glPushMatrix();
             glRotatef(-yRot * 2.0f, 0.0f, 1.0f, 0.0f);
             glTranslatef(1.0f, 0.0f, 0.0f);
             gltDrawSphere(0.1f,21, 11);
         glPopMatrix();
-    
+
         if(nShadow == 0){
             // Torus alone will be specular
             glMaterialfv(GL_FRONT, GL_SPECULAR, fBrightLight);
         }
-        
+
         glRotatef(yRot, 0.0f, 1.0f, 0.0f);
         glBindTexture(GL_TEXTURE_2D, textureObjects[TORUS_TEXTURE]);
-        gltDrawTorus(0.35, 0.15, 61, 37);
+        DrawRobot();
         glMaterialfv(GL_FRONT, GL_SPECULAR, fNoLight);
     glPopMatrix();
-    }
+}
 
         
 // Called to draw scene
-void RenderScene(void)
-    {
+void RenderScene(void){
     // Clear the window with current clearing color
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
         
@@ -873,7 +977,7 @@ void RenderScene(void)
         
     // Do the buffer Swap
     glutSwapBuffers();
-    }
+}
 
 
 
@@ -891,11 +995,62 @@ void SpecialKeys(int key, int x, int y)
 	   
     if(key == GLUT_KEY_RIGHT)
         frameCamera.RotateLocalY(-0.1f);
-                        
+	/**Anima pause*/
+	if(key == GLUT_KEY_F1) {
+		pause = !pause;
+	}
     // Refresh the Window
     glutPostRedisplay();
     }
 
+/**KeyBord controller**/
+void AddAngle(float& a){
+	if(a<20){
+		a++;
+	} else{
+		a= -20;
+	}
+}
+void KeyBoardInput(unsigned char KeyCode, int x, int y ) {
+	/**Apply different angle change*/
+	switch (KeyCode) {
+		case '1':
+			AddAngle(bd);
+		break;
+		case '2':
+			AddAngle(hd);
+		break;
+		case '3':
+			AddAngle(la);
+		break;
+		case '4':
+			AddAngle(lh);
+		break;
+		case '5':
+			AddAngle(ra);
+		break;
+		case '6':
+			AddAngle(rh);
+		break;
+		case '7':
+			AddAngle(ll);
+		break;
+		case '8':
+			AddAngle(lf);
+		break;
+		case '9':
+			AddAngle(rl);
+		break;
+		case '0':
+			AddAngle(rf);
+		break;
+
+
+	}
+
+	// Refresh the Window
+	glutPostRedisplay();
+}
 ///////////////////////////////////////////////////////////
 // Called by GLUT library when idle (window not being
 // resized or moved)
@@ -930,8 +1085,7 @@ void ChangeSize(int w, int h)
     glLoadIdentity();    
     }
 
-int main(int argc, char* argv[])
-    {
+int main(int argc, char* argv[]){
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH | GLUT_STENCIL);
     glutInitWindowSize(800,600);
@@ -939,7 +1093,7 @@ int main(int argc, char* argv[])
     glutReshapeFunc(ChangeSize);
     glutDisplayFunc(RenderScene);
     glutSpecialFunc(SpecialKeys);
-
+	glutKeyboardFunc(KeyBoardInput);
     SetupRC();
     glutTimerFunc(33, TimerFunction, 1);
 
@@ -948,4 +1102,4 @@ int main(int argc, char* argv[])
     ShutdownRC();
 
     return 0;
-    }
+}
