@@ -4,1105 +4,420 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Linux - 6.5.0-35-generic - x86_64
+...
+
+---
+events:
   -
     kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /usr/bin/cc 
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
       Build flags: 
       Id flags:  
       
       The output was:
-      0
+      no such file or directory
       
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
-      
-      The C compiler identification is GNU, found in:
-        /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /usr/bin/c++ 
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
       Build flags: 
       Id flags:  
       
       The output was:
-      0
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
-      
-      The CXX compiler identification is GNU, found in:
-        /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/3.28.1/CompilerIdCXX/a.out
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aBJjjd"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aBJjjd"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-      CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aBJjjd'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8e8f4/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_8e8f4.dir/build.make CMakeFiles/cmTC_8e8f4.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aBJjjd'
-        Building C object CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o -c /snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/cc
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8e8f4.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8e8f4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccgB0f9I.s
-        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
-        
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
-        #include "..." search starts here:
-        #include <...> search starts here:
-         /usr/lib/gcc/x86_64-linux-gnu/11/include
-         /usr/local/include
-         /usr/include/x86_64-linux-gnu
-         /usr/include
-        End of search list.
-        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
-        
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8e8f4.dir/'
-         as -v --64 -o CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o /tmp/ccgB0f9I.s
-        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
-        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_8e8f4
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e8f4.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o -o cmTC_8e8f4 
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/cc
-        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e8f4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8e8f4.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyb6t3A.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8e8f4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e8f4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8e8f4.'
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aBJjjd'
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed C implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
-          add: [/usr/local/include]
-          add: [/usr/include/x86_64-linux-gnu]
-          add: [/usr/include]
-        end of search list found
-        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
-        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      no such file or directory
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aBJjjd']
-        ignore line: []
-        ignore line: [Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8e8f4/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8e8f4.dir/build.make CMakeFiles/cmTC_8e8f4.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-aBJjjd']
-        ignore line: [Building C object CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o -c /snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/cc]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8e8f4.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8e8f4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccgB0f9I.s]
-        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
-        ignore line: []
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
-        ignore line: [ /usr/local/include]
-        ignore line: [ /usr/include/x86_64-linux-gnu]
-        ignore line: [ /usr/include]
-        ignore line: [End of search list.]
-        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
-        ignore line: []
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8e8f4.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o /tmp/ccgB0f9I.s]
-        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_8e8f4]
-        ignore line: [/snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e8f4.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o -o cmTC_8e8f4 ]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/cc]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8e8f4' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8e8f4.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyb6t3A.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8e8f4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
-          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccyb6t3A.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [--eh-frame-hdr] ==> ignore
-          arg [-m] ==> ignore
-          arg [elf_x86_64] ==> ignore
-          arg [--hash-style=gnu] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-dynamic-linker] ==> ignore
-          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-          arg [-pie] ==> ignore
-          arg [-znow] ==> ignore
-          arg [-zrelro] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_8e8f4] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
-          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-          arg [-L/lib/../lib] ==> dir [/lib/../lib]
-          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_8e8f4.dir/CMakeCCompilerABI.c.o] ==> ignore
-          arg [-lgcc] ==> lib [gcc]
-          arg [--push-state] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [--pop-state] ==> ignore
-          arg [-lc] ==> lib [c]
-          arg [-lgcc] ==> lib [gcc]
-          arg [--push-state] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [--pop-state] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
-        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-        collapse library dir [/lib/../lib] ==> [/lib]
-        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
-        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
-        implicit fwks: []
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
       
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3RCyz"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3RCyz"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
-      CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3RCyz'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_40b81/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_40b81.dir/build.make CMakeFiles/cmTC_40b81.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3RCyz'
-        Building CXX object CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40b81.dir/'
-         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_40b81.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDxsLnA.s
-        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
-        
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
-        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
-        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
-        #include "..." search starts here:
-        #include <...> search starts here:
-         /usr/include/c++/11
-         /usr/include/x86_64-linux-gnu/c++/11
-         /usr/include/c++/11/backward
-         /usr/lib/gcc/x86_64-linux-gnu/11/include
-         /usr/local/include
-         /usr/include/x86_64-linux-gnu
-         /usr/include
-        End of search list.
-        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
-        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
-        
-        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-        Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40b81.dir/'
-         as -v --64 -o CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDxsLnA.s
-        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
-        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_40b81
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40b81.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_40b81 
-        Using built-in specs.
-        COLLECT_GCC=/usr/bin/c++
-        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
-        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
-        OFFLOAD_TARGET_DEFAULT=1
-        Target: x86_64-linux-gnu
-        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
-        Thread model: posix
-        Supported LTO compression algorithms: zlib zstd
-        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
-        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
-        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40b81' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40b81.'
-         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU0MZFi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_40b81 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40b81' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40b81.'
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3RCyz'
-        
-      exitCode: 0
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Parsed CXX implicit include dir info: rv=done
-        found start of include info
-        found start of implicit include info
-          add: [/usr/include/c++/11]
-          add: [/usr/include/x86_64-linux-gnu/c++/11]
-          add: [/usr/include/c++/11/backward]
-          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
-          add: [/usr/local/include]
-          add: [/usr/include/x86_64-linux-gnu]
-          add: [/usr/include]
-        end of search list found
-        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
-        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
-        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
-        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
-        collapse include dir [/usr/local/include] ==> [/usr/local/include]
-        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
-        collapse include dir [/usr/include] ==> [/usr/include]
-        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      The output was:
+      no such file or directory
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3RCyz']
-        ignore line: []
-        ignore line: [Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_40b81/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_40b81.dir/build.make CMakeFiles/cmTC_40b81.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v3RCyz']
-        ignore line: [Building CXX object CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o -c /snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40b81.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_40b81.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccDxsLnA.s]
-        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
-        ignore line: []
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
-        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
-        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
-        ignore line: [#include "..." search starts here:]
-        ignore line: [#include <...> search starts here:]
-        ignore line: [ /usr/include/c++/11]
-        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
-        ignore line: [ /usr/include/c++/11/backward]
-        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
-        ignore line: [ /usr/local/include]
-        ignore line: [ /usr/include/x86_64-linux-gnu]
-        ignore line: [ /usr/include]
-        ignore line: [End of search list.]
-        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
-        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
-        ignore line: []
-        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-        ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40b81.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDxsLnA.s]
-        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_40b81]
-        ignore line: [/snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40b81.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_40b81 ]
-        ignore line: [Using built-in specs.]
-        ignore line: [COLLECT_GCC=/usr/bin/c++]
-        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
-        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
-        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
-        ignore line: [Target: x86_64-linux-gnu]
-        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
-        ignore line: [Thread model: posix]
-        ignore line: [Supported LTO compression algorithms: zlib zstd]
-        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
-        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
-        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_40b81' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_40b81.']
-        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccU0MZFi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_40b81 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
-          arg [-plugin] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
-          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccU0MZFi.res] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lc] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-          arg [--build-id] ==> ignore
-          arg [--eh-frame-hdr] ==> ignore
-          arg [-m] ==> ignore
-          arg [elf_x86_64] ==> ignore
-          arg [--hash-style=gnu] ==> ignore
-          arg [--as-needed] ==> ignore
-          arg [-dynamic-linker] ==> ignore
-          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
-          arg [-pie] ==> ignore
-          arg [-znow] ==> ignore
-          arg [-zrelro] ==> ignore
-          arg [-o] ==> ignore
-          arg [cmTC_40b81] ==> ignore
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
-          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
-          arg [-L/lib/../lib] ==> dir [/lib/../lib]
-          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
-          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
-          arg [CMakeFiles/cmTC_40b81.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
-          arg [-lstdc++] ==> lib [stdc++]
-          arg [-lm] ==> lib [m]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [-lc] ==> lib [c]
-          arg [-lgcc_s] ==> lib [gcc_s]
-          arg [-lgcc] ==> lib [gcc]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
-          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
-        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
-        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
-        collapse library dir [/lib/../lib] ==> [/lib]
-        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
-        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
-        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
-        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
-        implicit fwks: []
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
       
       
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
-      - "Thirdparty/freeglut/CMakeLists.txt:261 (FIND_PACKAGE)"
-    checks:
-      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TMfGlC"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TMfGlC"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-    buildResult:
-      variable: "X11_LIB_X11_SOLO"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TMfGlC'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13e77/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_13e77.dir/build.make CMakeFiles/cmTC_13e77.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TMfGlC'
-        Building C object CMakeFiles/cmTC_13e77.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -fdiagnostics-color=always -o CMakeFiles/cmTC_13e77.dir/CheckFunctionExists.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TMfGlC/CheckFunctionExists.c
-        Linking C executable cmTC_13e77
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13e77.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay -rdynamic CMakeFiles/cmTC_13e77.dir/CheckFunctionExists.c.o -o cmTC_13e77  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TMfGlC'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
-      - "Thirdparty/freeglut/CMakeLists.txt:261 (FIND_PACKAGE)"
-    checks:
-      - "Looking for gethostbyname"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ipbsEH"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ipbsEH"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_HAVE_GETHOSTBYNAME"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ipbsEH'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b62c8/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b62c8.dir/build.make CMakeFiles/cmTC_b62c8.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ipbsEH'
-        Building C object CMakeFiles/cmTC_b62c8.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname -fdiagnostics-color=always -o CMakeFiles/cmTC_b62c8.dir/CheckFunctionExists.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ipbsEH/CheckFunctionExists.c
-        Linking C executable cmTC_b62c8
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b62c8.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname -rdynamic CMakeFiles/cmTC_b62c8.dir/CheckFunctionExists.c.o -o cmTC_b62c8 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ipbsEH'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
-      - "Thirdparty/freeglut/CMakeLists.txt:261 (FIND_PACKAGE)"
-    checks:
-      - "Looking for connect"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RuRHOJ"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RuRHOJ"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_HAVE_CONNECT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RuRHOJ'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e4a77/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_e4a77.dir/build.make CMakeFiles/cmTC_e4a77.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RuRHOJ'
-        Building C object CMakeFiles/cmTC_e4a77.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect -fdiagnostics-color=always -o CMakeFiles/cmTC_e4a77.dir/CheckFunctionExists.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RuRHOJ/CheckFunctionExists.c
-        Linking C executable cmTC_e4a77
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4a77.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect -rdynamic CMakeFiles/cmTC_e4a77.dir/CheckFunctionExists.c.o -o cmTC_e4a77 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RuRHOJ'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: CMAKE_C_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
-      - "Thirdparty/freeglut/CMakeLists.txt:261 (FIND_PACKAGE)"
-    checks:
-      - "Looking for remove"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uCTbSL"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uCTbSL"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_HAVE_REMOVE"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uCTbSL'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_55edb/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_55edb.dir/build.make CMakeFiles/cmTC_55edb.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uCTbSL'
-        Building C object CMakeFiles/cmTC_55edb.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove -fdiagnostics-color=always -o CMakeFiles/cmTC_55edb.dir/CheckFunctionExists.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uCTbSL/CheckFunctionExists.c
-        Linking C executable cmTC_55edb
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55edb.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove -rdynamic CMakeFiles/cmTC_55edb.dir/CheckFunctionExists.c.o -o cmTC_55edb 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uCTbSL'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
-      - "Thirdparty/freeglut/CMakeLists.txt:261 (FIND_PACKAGE)"
-    checks:
-      - "Looking for shmat"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HjhUmp"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HjhUmp"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_HAVE_SHMAT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HjhUmp'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_262cf/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_262cf.dir/build.make CMakeFiles/cmTC_262cf.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HjhUmp'
-        Building C object CMakeFiles/cmTC_262cf.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat -fdiagnostics-color=always -o CMakeFiles/cmTC_262cf.dir/CheckFunctionExists.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HjhUmp/CheckFunctionExists.c
-        Linking C executable cmTC_262cf
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_262cf.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat -rdynamic CMakeFiles/cmTC_262cf.dir/CheckFunctionExists.c.o -o cmTC_262cf 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HjhUmp'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindX11.cmake:739 (check_library_exists)"
-      - "Thirdparty/freeglut/CMakeLists.txt:261 (FIND_PACKAGE)"
-    checks:
-      - "Looking for IceConnectionNumber in ICE"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SsLzYz"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SsLzYz"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-    buildResult:
-      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SsLzYz'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_401b2/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_401b2.dir/build.make CMakeFiles/cmTC_401b2.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SsLzYz'
-        Building C object CMakeFiles/cmTC_401b2.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -fdiagnostics-color=always -o CMakeFiles/cmTC_401b2.dir/CheckFunctionExists.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SsLzYz/CheckFunctionExists.c
-        Linking C executable cmTC_401b2
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_401b2.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -rdynamic CMakeFiles/cmTC_401b2.dir/CheckFunctionExists.c.o -o cmTC_401b2  -lICE 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SsLzYz'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:274 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file /usr/include/X11/extensions/XInput2.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hjbNjY"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hjbNjY"
-    cmakeVariables:
-      CMAKE_C_FLAGS: ""
-    buildResult:
-      variable: "HAVE_X11_EXTENSIONS_XINPUT2_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hjbNjY'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9a0a/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_b9a0a.dir/build.make CMakeFiles/cmTC_b9a0a.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hjbNjY'
-        Building C object CMakeFiles/cmTC_b9a0a.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o
-        /usr/bin/cc   -fdiagnostics-color=always -o CMakeFiles/cmTC_b9a0a.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hjbNjY/HAVE_X11_EXTENSIONS_XINPUT2_H.c
-        Linking C executable cmTC_b9a0a
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9a0a.dir/link.txt --verbose=1
-        /usr/bin/cc -rdynamic CMakeFiles/cmTC_b9a0a.dir/HAVE_X11_EXTENSIONS_XINPUT2_H.c.o -o cmTC_b9a0a 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hjbNjY'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:376 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file sys/types.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NYTFI4"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NYTFI4"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_SYS_TYPES_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NYTFI4'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a86ea/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a86ea.dir/build.make CMakeFiles/cmTC_a86ea.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NYTFI4'
-        Building C object CMakeFiles/cmTC_a86ea.dir/HAVE_SYS_TYPES_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_a86ea.dir/HAVE_SYS_TYPES_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NYTFI4/HAVE_SYS_TYPES_H.c
-        Linking C executable cmTC_a86ea
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a86ea.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_a86ea.dir/HAVE_SYS_TYPES_H.c.o -o cmTC_a86ea 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NYTFI4'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:377 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file unistd.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJSp0e"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJSp0e"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_UNISTD_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJSp0e'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_30f69/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_30f69.dir/build.make CMakeFiles/cmTC_30f69.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJSp0e'
-        Building C object CMakeFiles/cmTC_30f69.dir/HAVE_UNISTD_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_30f69.dir/HAVE_UNISTD_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJSp0e/HAVE_UNISTD_H.c
-        Linking C executable cmTC_30f69
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30f69.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_30f69.dir/HAVE_UNISTD_H.c.o -o cmTC_30f69 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yJSp0e'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:378 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file sys/time.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f2RYTd"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f2RYTd"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_SYS_TIME_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f2RYTd'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c85e9/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_c85e9.dir/build.make CMakeFiles/cmTC_c85e9.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f2RYTd'
-        Building C object CMakeFiles/cmTC_c85e9.dir/HAVE_SYS_TIME_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_c85e9.dir/HAVE_SYS_TIME_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f2RYTd/HAVE_SYS_TIME_H.c
-        Linking C executable cmTC_c85e9
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c85e9.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_c85e9.dir/HAVE_SYS_TIME_H.c.o -o cmTC_c85e9 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f2RYTd'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:379 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file stdbool.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5OrxqA"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5OrxqA"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_STDBOOL_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5OrxqA'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84843/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_84843.dir/build.make CMakeFiles/cmTC_84843.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5OrxqA'
-        Building C object CMakeFiles/cmTC_84843.dir/HAVE_STDBOOL_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_84843.dir/HAVE_STDBOOL_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5OrxqA/HAVE_STDBOOL_H.c
-        Linking C executable cmTC_84843
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84843.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_84843.dir/HAVE_STDBOOL_H.c.o -o cmTC_84843 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5OrxqA'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:380 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file sys/param.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3T87kM"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3T87kM"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_SYS_PARAM_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3T87kM'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f9493/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_f9493.dir/build.make CMakeFiles/cmTC_f9493.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3T87kM'
-        Building C object CMakeFiles/cmTC_f9493.dir/HAVE_SYS_PARAM_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_f9493.dir/HAVE_SYS_PARAM_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3T87kM/HAVE_SYS_PARAM_H.c
-        Linking C executable cmTC_f9493
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9493.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_f9493.dir/HAVE_SYS_PARAM_H.c.o -o cmTC_f9493 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3T87kM'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:381 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file sys/ioctl.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08Tp6d"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08Tp6d"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_SYS_IOCTL_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08Tp6d'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75f4a/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_75f4a.dir/build.make CMakeFiles/cmTC_75f4a.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08Tp6d'
-        Building C object CMakeFiles/cmTC_75f4a.dir/HAVE_SYS_IOCTL_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_75f4a.dir/HAVE_SYS_IOCTL_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08Tp6d/HAVE_SYS_IOCTL_H.c
-        Linking C executable cmTC_75f4a
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f4a.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_75f4a.dir/HAVE_SYS_IOCTL_H.c.o -o cmTC_75f4a 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-08Tp6d'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:382 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file fcntl.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Wd3PVZ"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Wd3PVZ"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_FCNTL_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Wd3PVZ'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2bce0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_2bce0.dir/build.make CMakeFiles/cmTC_2bce0.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Wd3PVZ'
-        Building C object CMakeFiles/cmTC_2bce0.dir/HAVE_FCNTL_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_2bce0.dir/HAVE_FCNTL_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Wd3PVZ/HAVE_FCNTL_H.c
-        Linking C executable cmTC_2bce0
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bce0.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_2bce0.dir/HAVE_FCNTL_H.c.o -o cmTC_2bce0 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Wd3PVZ'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
   -
-    kind: "try_compile-v1"
+    kind: "message-v1"
     backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:383 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file usbhid.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htBoag"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htBoag"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_USBHID_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htBoag'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_36526/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_36526.dir/build.make CMakeFiles/cmTC_36526.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htBoag'
-        Building C object CMakeFiles/cmTC_36526.dir/HAVE_USBHID_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_36526.dir/HAVE_USBHID_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htBoag/HAVE_USBHID_H.c
-        \x1b[01m\x1b[K/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htBoag/HAVE_USBHID_H.c:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kusbhid.h: No such file or directory
-            2 | #include \x1b[01;31m\x1b[K<usbhid.h>\x1b[m\x1b[K
-              |          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K
-        compilation terminated.
-        gmake[1]: *** [CMakeFiles/cmTC_36526.dir/build.make:78: CMakeFiles/cmTC_36526.dir/HAVE_USBHID_H.c.o] Error 1
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-htBoag'
-        gmake: *** [Makefile:127: cmTC_36526/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:384 (CHECK_FUNCTION_EXISTS)"
-    checks:
-      - "Looking for gettimeofday"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toLPZ9"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toLPZ9"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_GETTIMEOFDAY"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toLPZ9'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d8ca/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5d8ca.dir/build.make CMakeFiles/cmTC_5d8ca.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toLPZ9'
-        Building C object CMakeFiles/cmTC_5d8ca.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -fdiagnostics-color=always -o CMakeFiles/cmTC_5d8ca.dir/CheckFunctionExists.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toLPZ9/CheckFunctionExists.c
-        Linking C executable cmTC_5d8ca
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d8ca.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=gettimeofday -rdynamic CMakeFiles/cmTC_5d8ca.dir/CheckFunctionExists.c.o -o cmTC_5d8ca  -lm 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-toLPZ9'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:385 (CHECK_FUNCTION_EXISTS)"
-    checks:
-      - "Looking for XParseGeometry"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wyPvRo"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wyPvRo"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_XPARSEGEOMETRY"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wyPvRo'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fbfbf/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_fbfbf.dir/build.make CMakeFiles/cmTC_fbfbf.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wyPvRo'
-        Building C object CMakeFiles/cmTC_fbfbf.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -fdiagnostics-color=always -o CMakeFiles/cmTC_fbfbf.dir/CheckFunctionExists.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wyPvRo/CheckFunctionExists.c
-        Linking C executable cmTC_fbfbf
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbfbf.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic -DCHECK_FUNCTION_EXISTS=XParseGeometry -rdynamic CMakeFiles/cmTC_fbfbf.dir/CheckFunctionExists.c.o -o cmTC_fbfbf  -lm 
-        /usr/bin/ld: CMakeFiles/cmTC_fbfbf.dir/CheckFunctionExists.c.o: in function `main':
-        CheckFunctionExists.c:(.text+0x14): undefined reference to `XParseGeometry'
-        collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_fbfbf.dir/build.make:99: cmTC_fbfbf] Error 1
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wyPvRo'
-        gmake: *** [Makefile:127: cmTC_fbfbf/fast] Error 2
-        
-      exitCode: 2
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:393 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file stdint.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6RBXiC"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6RBXiC"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_STDINT_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6RBXiC'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_09883/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_09883.dir/build.make CMakeFiles/cmTC_09883.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6RBXiC'
-        Building C object CMakeFiles/cmTC_09883.dir/HAVE_STDINT_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_09883.dir/HAVE_STDINT_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6RBXiC/HAVE_STDINT_H.c
-        Linking C executable cmTC_09883
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09883.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_09883.dir/HAVE_STDINT_H.c.o -o cmTC_09883 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6RBXiC'
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/snap/clion/277/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
-      - "Thirdparty/freeglut/CMakeLists.txt:394 (CHECK_INCLUDE_FILES)"
-    checks:
-      - "Looking for include file inttypes.h"
-    directories:
-      source: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F9QBK8"
-      binary: "/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F9QBK8"
-    cmakeVariables:
-      CMAKE_C_FLAGS: " -Wall -pedantic"
-    buildResult:
-      variable: "HAVE_INTTYPES_H"
-      cached: true
-      stdout: |
-        Change Dir: '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F9QBK8'
-        
-        Run Build Command(s): /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_193c6/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_193c6.dir/build.make CMakeFiles/cmTC_193c6.dir/build
-        gmake[1]: Entering directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F9QBK8'
-        Building C object CMakeFiles/cmTC_193c6.dir/HAVE_INTTYPES_H.c.o
-        /usr/bin/cc   -Wall -pedantic  -fdiagnostics-color=always -o CMakeFiles/cmTC_193c6.dir/HAVE_INTTYPES_H.c.o -c /home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F9QBK8/HAVE_INTTYPES_H.c
-        Linking C executable cmTC_193c6
-        /snap/clion/277/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_193c6.dir/link.txt --verbose=1
-        /usr/bin/cc  -Wall -pedantic  -rdynamic CMakeFiles/cmTC_193c6.dir/HAVE_INTTYPES_H.c.o -o cmTC_193c6 
-        gmake[1]: Leaving directory '/home/tami/Projects/OpenGL_Lab/HomeWork/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-F9QBK8'
-        
-      exitCode: 0
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/snap/clion/282/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
 ...
